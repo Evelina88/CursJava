@@ -14,8 +14,9 @@ public class MethodOverLoad {
 
 	MethodOverLoad obj = new MethodOverLoad();
 	obj.printeaza("Doi");//string
-	obj.printeaza(2);//int 
+	//obj.printeaza(2);//int 
 	
+	System.out.println(obj.multiply(4.5, 6));
 	
 	
 	}
@@ -28,6 +29,12 @@ public class MethodOverLoad {
 		System.out.println();
 	}
 	
-	public int multiply
+	public int multiply(int a, int b) {
+		return a * b; 
+		
+	}
+	public double multiply(double a, double b) {
+		return a*b;
+	}
 	
 }
